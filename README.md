@@ -1,3 +1,5 @@
+# Elk-Stack-Project-1
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -36,8 +38,8 @@ _Note: Use the Markdown Table Generator](http://www.tablesgenerator.com/markdown
 | Jump Box | Gateway   | 40.122.188.121| Linux            |
 | Web1     | Web VM    | 10.2.0.11     | Linux            |
 | Web2     | Web VM    | 10.2.0.12     | Linux            |
-| Web3.    | Web VM    | 10.2.0.15     | Linux            |
-|Elk       | Elk Server| 10.0.0.4      | Linux            |
+| Web3     | Web VM    | 10.2.0.15     | Linux            |
+| Elk      | Elk Server| 10.0.0.4      | Linux            |
 
 ### Access Policies
 
@@ -63,6 +65,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - What is the main advantage of automating configuration with Ansible?_
+    The primary benefit of Ansible is it allows IT administrators to automate. Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.
 
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
@@ -89,7 +92,7 @@ This ELK server is configured to monitor the following machines:
   10.2.0.15
 
 We have installed the following Beats on these machines:
-- Specify which Beats you successfully installed: WEB-1 WEB-2 DVWA-WEB-1 DVWA-WEB-2- 
+- Specify which Beats you successfully installed: WEB-1 WEB-2 DVWA-WEB-1 DVWA-WEB-2 
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
